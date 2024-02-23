@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_reisegrund" table="u_reisekosten">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_reisekostenart" table="u_reisekosten">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -10,10 +10,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Purpose of travel</column_label>
+        <column_label>Reisekostenart</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,13 +26,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_reisegrund</element>
+        <element>u_reisekostenart</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>u_reisekosten</name>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-15 14:40:12</sys_created_on>
-        <sys_name>Purpose of travel</sys_name>
+        <sys_created_on>2024-02-23 14:23:36</sys_created_on>
+        <sys_name>Reisekostenart</sys_name>
         <sys_package display_value="Reisekosten" source="d17c3ad697bef9107f203d37f053af19">d17c3ad697bef9107f203d37f053af19</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope>
-        <sys_update_name>sys_dictionary_u_reisekosten_u_reisegrund</sys_update_name>
+        <sys_update_name>sys_dictionary_u_reisekosten_u_reisekostenart</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-09 14:39:01</sys_updated_on>
+        <sys_updated_on>2024-02-23 14:23:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
