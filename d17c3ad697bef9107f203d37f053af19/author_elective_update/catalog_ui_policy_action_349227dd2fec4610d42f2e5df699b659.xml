@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Submit Expenses">b8ec83c22f733110d42f2e5df699b634</catalog_item>
+        <catalog_variable>IO:b050eb1d2fec4610d42f2e5df699b651</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 14:41:24</sys_created_on>
+        <sys_id>349227dd2fec4610d42f2e5df699b659</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_reisekostenart</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_349227dd2fec4610d42f2e5df699b659</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-01 14:12:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'reisekostenart' visible depending on 'cost_type'">66122f9d2fec4610d42f2e5df699b64a</ui_policy>
+        <variable>u_reisekostenart</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</application>
+        <file_path/>
+        <instance_id>c3035ad8dbb3b74007072f17d4961994</instance_id>
+        <instance_name>dev93181</instance_name>
+        <name>catalog_ui_policy_action_349227dd2fec4610d42f2e5df699b659</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Submit Expenses">b8ec83c22f733110d42f2e5df699b634</catalog_item><catalog_variable>IO:b050eb1d2fec4610d42f2e5df699b651</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-23 14:41:24</sys_created_on><sys_id>349227dd2fec4610d42f2e5df699b659</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_reisekostenart</sys_name><sys_package/><sys_policy/><sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope><sys_update_name>catalog_ui_policy_action_349227dd2fec4610d42f2e5df699b659</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-03-01 14:12:17</sys_updated_on><table/><ui_policy display_value="Make 'reisekostenart' visible depending on 'cost_type'">66122f9d2fec4610d42f2e5df699b64a</ui_policy><variable>u_reisekostenart</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1814934365</payload_hash>
+        <record_name>u_reisekostenart</record_name>
+        <reverted_from/>
+        <source>387e48e8d9b13110cedf7dffddb48f09</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-01 14:12:18</sys_created_on>
+        <sys_id>7e0f5b672f640210d42f2e5df699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dfa5bd2c50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-01 14:12:18</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>360f5b676e640210b4241a0dc4812a34</update_guid>
+        <update_guid_history>360f5b676e640210b4241a0dc4812a34:-1814934365,ef17ab15a52086108ba9c0b01169d10a:1854552739,2b17ab1571208610b111b67ebd11bd08:-1994757663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_reisekostenart">a1b6a7af2f640210d42f2e5df699b68a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 14:45:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>32f20f002a004b5a94576e9d46041844</sys_id>
+        <sys_metadata>349227dd2fec4610d42f2e5df699b659</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reisekostenart</sys_name>
+        <sys_package display_value="Reisekosten" source="d17c3ad697bef9107f203d37f053af19">d17c3ad697bef9107f203d37f053af19</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope>
+        <sys_scope_delete display_value="">5a6dc31175a5483085449b0fdcdb7dd1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_349227dd2fec4610d42f2e5df699b659</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_349227dd2fec4610d42f2e5df699b659">7e0f5b672f640210d42f2e5df699b634</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 14:45:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

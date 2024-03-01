@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Submit Expenses">b8ec83c22f733110d42f2e5df699b634</catalog_item>
+        <catalog_variable>IO:97c46f512f208610d42f2e5df699b613</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 14:52:33</sys_created_on>
+        <sys_id>c425e3912f208610d42f2e5df699b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>in_rechnung_stellen</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c425e3912f208610d42f2e5df699b662</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 14:52:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'in_rechnung_stellen' visible depending on 'cost_type'">51152f512f208610d42f2e5df699b63d</ui_policy>
+        <variable>in_rechnung_stellen</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</application>
+        <file_path/>
+        <instance_id>c3035ad8dbb3b74007072f17d4961994</instance_id>
+        <instance_name>dev93181</instance_name>
+        <name>catalog_ui_policy_action_c425e3912f208610d42f2e5df699b662</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Submit Expenses">b8ec83c22f733110d42f2e5df699b634</catalog_item><catalog_variable>IO:97c46f512f208610d42f2e5df699b613</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-23 14:52:33</sys_created_on><sys_id>c425e3912f208610d42f2e5df699b662</sys_id><sys_mod_count>0</sys_mod_count><sys_name>in_rechnung_stellen</sys_name><sys_package/><sys_policy/><sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope><sys_update_name>catalog_ui_policy_action_c425e3912f208610d42f2e5df699b662</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-23 14:52:33</sys_updated_on><table/><ui_policy display_value="Make 'in_rechnung_stellen' visible depending on 'cost_type'">51152f512f208610d42f2e5df699b63d</ui_policy><variable>in_rechnung_stellen</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1532740814</payload_hash>
+        <record_name>in_rechnung_stellen</record_name>
+        <reverted_from/>
+        <source>4f176b152f208610d42f2e5df699b695</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 15:01:15</sys_created_on>
+        <sys_id>eb17ab152f208610d42f2e5df699b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd67c213f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 15:01:15</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>2317ab15cd20861075bd8f53fc79c406</update_guid>
+        <update_guid_history>2317ab15cd20861075bd8f53fc79c406:1532740814,6b17ab15de208610046ff6b81f7a8c03:794861583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="in_rechnung_stellen">2db6a7af2f640210d42f2e5df699b66c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 14:45:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2f578fe9abfc472094619bec691de7f1</sys_id>
+        <sys_metadata>c425e3912f208610d42f2e5df699b662</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>in_rechnung_stellen</sys_name>
+        <sys_package display_value="Reisekosten" source="d17c3ad697bef9107f203d37f053af19">d17c3ad697bef9107f203d37f053af19</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisekosten">d17c3ad697bef9107f203d37f053af19</sys_scope>
+        <sys_scope_delete display_value="">5a6dc31175a5483085449b0fdcdb7dd1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_c425e3912f208610d42f2e5df699b662</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_c425e3912f208610d42f2e5df699b662">eb17ab152f208610d42f2e5df699b606</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 14:45:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
